@@ -1,0 +1,87 @@
+.bg-dark{
+    background-color: #006994 !important;
+    /*παρότι κάνουμε την αλλαγή το χρώμα δεν έχει εμφανιστεί ακόμα
+    αθτό επειδή το bootstrap επειδή υπάρχει ακι το javascript αρχείο το επικαλεί πίσω 
+    τελευταίο. Για να παίξει θα πρέπει να βαλουμε το !important*/
+}
+
+.navbar{
+    border-bottom: 3px solid #333333;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.dropdown-item:hover{
+    color: #006994;
+}
+
+
+header{
+    background-image: url(../img/limani-kerkura.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50%;
+}
+
+.main{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.main p{
+    text-align: justify;
+}
+
+.line{
+    background-color: #006994;
+}
+
+.album {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.card {
+    border: none;
+}
+
+.card-title a{
+    text-decoration: none;
+}
+
+.card img{
+    height: 250px;
+}
+
+footer{
+    background-color: #222252;
+    color: white;
+}
+
+.social a{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+/* Styling for page Πληροφορίες*/
+
+.information{
+    margin-top: 120px;
+}
